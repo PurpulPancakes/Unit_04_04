@@ -29,8 +29,136 @@
 /* Structural Styles */
 
 html{
-   background-color: rgba(235, 227, 162, .8);
+   background-color: rgba(211, 203, 147, 0.8);
+   font-family: Verdana, DobkinPlain, sans-serif;
 }
 body{
    background-color: rgb(238, 232, 223);
+}
+footer{
+   color: rgb(238, 232, 223);
+   background-color: rgb(87, 87, 87);
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+img:nth-of-type(2){
+   
+}
+
+/* Navigation Styles */
+
+header > nav a{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+header > nav a:link, header > nav a:visited{
+   color: rgb(243, 229, 199);
+   background-color: rgb(125, 55, 143);
+   text-decoration: none;
+}
+header > nav a:hover, header > nav a:active{
+   color: rgb(85, 218, 223);
+   background-color: rgb(74, 33, 85);
+   text-decoration: underline;
+}
+
+/* Aside Styles */
+
+#leftcol > h1:first-of-type{
+   font-family: Champagne, sans-serif;
+   font-size: 5em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-left: 10px;
+}
+#leftcol > p:nth-of-type(1){
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#leftcol > p:nth-of-type(2){
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#leftcol > p:nth-of-type(3){
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#leftcol > p:nth-of-type(4){
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#leftcol aside:nth-of-type(1){
+   background-color: rgba(255, 89, 60, 0.5);
+   padding-bottom: 5px;
+}
+#leftcol aside:nth-of-type(1) > h1{
+   text-align: center;
+}
+#leftcol aside:nth-of-type(1) li{
+   font-size: 0.8em;
+   letter-spacing: 2px;
+}
+#leftcol aside:nth-of-type(2){
+   background-color: rgba(218, 135, 27, 0.5);
+}
+#leftcol aside:nth-of-type(2) > h1{
+   text-align: center;
+}
+#leftcol aside:nth-of-type(2) h2{
+   font-size: 1em;
+   padding-left: 5px;
+}
+#leftcol aside:nth-of-type(2) p{
+   font-size: 0.8em;
+   padding-left: 20px;
+   padding-right: 10px;
+}
+
+/* Section Styles */
+
+#rightcol{
+   background-color: rgb(238, 212, 245);
+   padding-bottom: 280px;
+   padding-top: 20px;
+}
+#rightcol h2{
+   font-family: Champagne, sans-serif;
+   padding-left: 40px;
+   font-size: 1.6em;
+   margin-bottom: 0px;
+   margin-top: 12px;
+}
+#rightcol a{
+   margin-left: 30px;
+   text-decoration: none;
+   font-size: 0.8em;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+#rightcol ul{
+   list-style-type: none;
+}
+#rightcol a:link, #rightcol a:visited{
+   color: rgb(100, 84, 102);
+}
+#rightcol a:hover, #rightcol a:active{
+   color: rgb(252, 185, 230);
+   background-color: rgba(0, 0, 0, 0.3);
+   text-decoration: underline;
+}
+
+/* Blockquote Styles */
+
+blockquote{
+   font-family: DobkinPlain, sans-serif;
+   font-size: 1.5em;
+   padding-top: 50px;
+   color: rgb(144, 51, 170);
+}
+blockquote::before{
+   content:open-quote;
+}
+blockquote::after{
+   content:close-quote;
 }
