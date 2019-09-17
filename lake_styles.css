@@ -52,6 +52,7 @@ header > nav a{
    padding-top: 5px;
    padding-bottom: 5px;
 }
+/* Here I add the pseudo code for the clickable links, to make them look more clickable */
 header > nav a:link, header > nav a:visited{
    color: rgb(243, 229, 199);
    background-color: rgb(125, 55, 143);
@@ -64,7 +65,7 @@ header > nav a:hover, header > nav a:active{
 }
 
 /* Aside Styles */
-
+/* With these nth of types, I can choose certain parts of the code for precise editing */
 #leftcol > h1:first-of-type{
    font-family: Champagne, sans-serif;
    font-size: 5em;
@@ -122,6 +123,7 @@ header > nav a:hover, header > nav a:active{
    padding-bottom: 280px;
    padding-top: 20px;
 }
+/* I add font here to make the font look more fancy */
 #rightcol h2{
    font-family: Champagne, sans-serif;
    padding-left: 40px;
@@ -162,3 +164,4 @@ blockquote::before{
 blockquote::after{
    content:close-quote;
 }
+/* These close and open quote elements make the block quote look more like a quote */
